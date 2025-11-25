@@ -3,35 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Love Letter</title>
+    <title>My Love Letter to Mario</title>
+    <!-- Romantic and Cute Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1 class="title fadeIn">To My One and Only ❤️</h1>
-        <p class="intro slideUp">My Dearest,</p>
-        <p class="content fadeIn">Every moment spent with you feels like a beautiful dream come true. <span class="reveal" id="message1">Click here for more...</span></p>
-        <p class="hidden-message" id="hidden-message1">I feel like the luckiest person in the world because you're mine! 💖</p>
-        
-        <p class="content fadeIn">You're my soulmate, my best friend, and my greatest love. <span class="reveal" id="message2">Want to know more?</span></p>
-        <p class="hidden-message" id="hidden-message2">Every day with you is an adventure, and I can't wait for the journey ahead. 💕</p>
-        
-        <p class="closing slideUp">Yours forever,</p>
-        <p class="signature bounceIn">[Your Name] 💖</p>
-        
-        <div class="heart-container">
-            <span class="heart pulse" id="heart">&#10084;&#65039;</span>
-            <p id="love-message" class="hidden-message">I love you endlessly! 😘</p>
+        <!-- Happy Birthday Title -->
+        <h1 class="title">Happy Birthday Baby! 🎉</h1>
+
+        <!-- Love Letter Content -->
+        <div class="letter-content">
+            <p class="content">
+                My love, I'm sorry that I'm not able to be there and give you a real present or megaknight you and fill you with kisses, but I still wanted to prepare something. It's already been three months and I think time went by very fast, but I enjoyed every single moment with you, including our fights, which happen quite often, but I believe that the fact that we are able to have fights and solve them like a married couple every time says a lot about our relationship.
+            </p>
+            <p class="content">
+                I know that I'm unbearable sometimes and I know that your love for me is much more valuable than anyone else's because you don't usually love people that much. You make every day different and happier, and I don't wish for us to not fight anymore, because I know that as long as we do, we love each other more than anyone could ever love.
+            </p>
+            <p class="content">
+                I would rather fight, overcome any difficulty with you, learn what makes you happy and what makes you sad, what I should and what I shouldn't do, discuss every topic, be always honest about what's hurting each other and change it, let you know that I love you even more when we don't agree rather than make you question my feelings for you.
+            </p>
+            <p class="content">
+                I know that you say you are a complex person, but I will always choose your complexity, the flaws that you say you have, the side of you that you say no one could ever love, the moments when you sound colder and the apologies after our mistakes, because I believe that love itself is a complex feeling, since it implies to analyze someone else's behavior and understand it.
+            </p>
+            <p class="content">
+                Loving someone is never easy and no relationship is ever perfect, we got our flaws, our imperfections, but they are the best thing that has ever happened to me. If you allow me to, I will stay forever, I will love every side of you, every single part that you love and the ones that you don't even more, because love means staying, even when it gets hard and you would give up if you were alone.
+            </p>
+            <p class="content">
+                I will cherish you, I will stand by your side even on your darkest days and try to make them brighter, I will be your fire when all around is cold, and I want you to know that you're safe with me, see me as one of those video game bonfire checkpoints to rest. I don't expect us to be the best, I expect us to be us, just the way we are, and I hope that our love grows every day more as I spend my life with you.
+            </p>
+            <p class="content">
+                Happy birthday my love, with all the happiness of being able to still be by your side.
+            </p>
         </div>
-        
-        <p class="footer slideUp">You are my everything!</p>
-        
-        <!-- Interactive form -->
-        <div class="form-container">
-            <h2>Leave me a message, my love:</h2>
-            <textarea id="love-message-input" placeholder="Write your sweet message here..."></textarea>
-            <button id="submit-message">Send Love</button>
-            <p id="thank-you-message" class="hidden-message">Thank you for your sweet message! 💖</p>
+
+        <!-- Signature (Updated) -->
+        <p class="signature">I love you, Mari <3</p>
+
+        <!-- Interactive Button to Show Secret Message -->
+        <button class="secret-button" onclick="showSecretMessage()">Click for a Surprise! 💌</button>
+
+        <!-- Hidden Secret Message -->
+        <div id="secret-message" class="secret-message">
+            <p>You're my everything, and I can't wait to spend many more birthdays with you. 💖</p>
         </div>
     </div>
 
