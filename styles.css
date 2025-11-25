@@ -61,34 +61,3 @@ body {
     color: #e74c3c;
     margin-top: 40px;
 }
-
-/* Secret Message Styling */
-.secret-message {
-    display: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    color: #2c3e50;
-    margin-top: 20px;
-    background-color: #f1c40f;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-/* Button Styling */
-.secret-button {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    background-color: #e74c3c;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-}
-
-.secret-button:hover {
-    background-color: #c0392b;
-}
-
